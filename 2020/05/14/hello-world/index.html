@@ -54,9 +54,8 @@
 </head>
 
 </html>
-<!-- 背景动画 -->
-<script type="text/javascript" src="/js/src/particle.js"></script>
-{{ live2d() }}
+
+
 <body>
   <div id="app">
     <main class="content on">
@@ -294,6 +293,56 @@
   
   
   
+  
+<!-- minivaline评论 -->
+<div id="mvcomments-box">
+    <div id="mvcomments">
+    </div>
+</div>
+<script src='https://cdn.jsdelivr.net/npm/minivaline/dist/MiniValine.min.js'></script>
+<script>
+	new MiniValine({
+	  el: '#mvcomments',
+	  appId: '',
+	  appKey: '',
+	  placeholder: 'Write a Comment',
+	  lang: '',
+	  adminEmailMd5: '',
+	  math: true,
+	  md: true
+	});
+    const infoEle = document.querySelector('#mvcomments .info');
+    if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0) {
+        infoEle.childNodes.forEach(function (item) {
+            item.parentNode.removeChild(item);
+        });
+    }
+</script>
+<style>
+    #mvcomments-box {
+        padding: 5px 30px;
+    }
+
+    @media screen and (max-width: 800px) {
+        #mvcomments-box {
+            padding: 5px 0px;
+        }
+    }
+
+    #mvcomments-box #mvcomments {
+        background-color: #fff;
+    }
+
+    .v .vlist .vcard .vh {
+        padding-right: 20px;
+    }
+
+    .v .vlist .vcard {
+        padding-left: 10px;
+    }
+</style>
+
+  
 
 </article>
 </section>
@@ -380,7 +429,7 @@
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="https://music.163.com/#/my/m/music/playlist?id=2922575182" target="_blank" rel="noopener">音乐</a>
+      <a class="nav-item-link" href="https://music.163.com/#/user/home?id=1935197228" target="_blank" rel="noopener">音乐</a>
     </li>
     
     <li class="nav-item">
@@ -454,11 +503,11 @@
 <script>
   try {
     var typed = new Typed("#subtitle", {
-      strings: ['我要赢一壶酒 ，拿来娶你。', '愿你的冬天永远不缺暖阳。', '欢迎 来到 九日文 的小站。'],
+      strings: ['我要赢一壶酒 ，拿来娶你。', '愿你的冬天永远不缺暖阳。', '欢迎来到九日文的小站。'],
       startDelay: 0,
       typeSpeed: 200,
       loop: true,
-      backSpeed: 100,
+      backSpeed: 200,
       showCursor: true
     });
   } catch (err) {
@@ -678,24 +727,9 @@
 
 
 
-    
-    <div id="music">
-    
-    
-    
-    <iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width="200" height="52"
-        src="//music.163.com/outchain/player?type=2&id=1935197228&auto=1&height=32"></iframe>
-</div>
-
-<style>
-    #music {
-        position: fixed;
-        right: 15px;
-        bottom: 0;
-        z-index: 998;
-    }
-</style>
-    
+    <!-- 背景动画 -->
+<script type="text/javascript" src="/js/src/particle.js"></script>
   </div>
+  {{ live2d() }}
 </body>
 
