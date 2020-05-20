@@ -90,7 +90,7 @@
 <hr>
 <p>利用hexo+github搭建博客，简单省钱不用买域名哈哈，然后记录一下搭建的过程，都是在b站还有一些大佬的博客里学的（网课老师讲的不认真听，花里胡哨倒是学的乐此不彼⁄(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄），后面会放链接，就不一一列出了。</p>
 <h2 id="准备-推荐用谷歌浏览器"><a href="#准备-推荐用谷歌浏览器" class="headerlink" title="准备(推荐用谷歌浏览器)"></a>准备(推荐用谷歌浏览器)</h2><p>1.安装node.js    <a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a></p>
-<p><img src="/images/image-20200520103706229.png" alt="image-20200520103706229"></p>
+<p><img src="/images/image-20200520103557329.jpg" alt=""></p>
 <p>2.下载安装git（官网下载安装）<a href="https://gitforwindows.org/" target="_blank" rel="noopener">https://gitforwindows.org/</a></p>
 <p>   拥有GitHub账号<a href="https://github.com/" target="_blank" rel="noopener">https://github.com/</a></p>
 <p>3.下载和安装hexo   <a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/</a></p>
@@ -111,24 +111,84 @@
 
 <p>注：如果在之前你有生成ssh公钥，那么就可以直接提交上去，如果没有，则需要填写邮箱以及密码。（生成ssh公钥见<a href="https://www.jianshu.com/p/a7167e26b086）" target="_blank" rel="noopener">https://www.jianshu.com/p/a7167e26b086）</a></p>
 <p><strong>到这步基础框架大概就做好了，后面就是主题美化了</strong></p>
-<h2 id="更改主题themes"><a href="#更改主题themes" class="headerlink" title="更改主题themes"></a>更改主题themes</h2><p><img src="C:\Users\Thinkpad\AppData\Roaming\Typora\typora-user-images\image-20200520105423596.png" alt="image-20200520105423596" style="zoom: 50%;" /><img src="C:%5CUsers%5CThinkpad%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200520105559559.png" alt="image-20200520105559559"></p>
+<p><img src="/images/image-20200520105423596.jpg" alt=""></p>
+<p><img src="/images/image-20200520105533197.jpg" alt=""></p>
 <p>后面花里胡哨太多了，懒得写(<em>/ω＼</em>)直接看别人的吧</p>
 <p><a href="https://thief.one/2017/03/03/Hexo搭建博客教程/" target="_blank" rel="noopener">https://thief.one/2017/03/03/Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/</a></p>
 <h2 id="写博文"><a href="#写博文" class="headerlink" title="写博文"></a>写博文</h2><p>新建文章命令</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new &lt;title&gt;</span><br></pre></td></tr></table></figure>
 
 <p>_posts目录下新建.md文章（在编辑博文，Subline或者Typora）</p>
-<p><img src="C:%5CUsers%5CThinkpad%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200520110204880.png" alt="image-20200520110204880"></p>
-<p><img src="C:%5CUsers%5CThinkpad%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200520110337252.png" alt="image-20200520110337252"></p>
+<p><img src="/images/image-20200520110204880.jpg" alt=""></p>
+<p><img src="/images/image-20200520110337252.jpg" alt=""></p>
 <p>生成静态文件: hexo g<br>提交到github: hexo d</p>
 <h1 id="搭建Hexo博客进阶篇–Hexo文档讲解（二）："><a href="#搭建Hexo博客进阶篇–Hexo文档讲解（二）：" class="headerlink" title="搭建Hexo博客进阶篇–Hexo文档讲解（二）："></a>搭建Hexo博客进阶篇–Hexo文档讲解（二）：</h1><p><a href="https://segmentfault.com/a/1190000009478129" target="_blank" rel="noopener">https://segmentfault.com/a/1190000009478129</a></p>
 <h3 id="关于图片素材"><a href="#关于图片素材" class="headerlink" title="关于图片素材"></a>关于图片素材</h3><p>图片素材按官方教程说法，可统一放置在source/images目录中，并以 <code>![](/images/image.jpg)</code> 方式引用,或者在 _config.yml 打开 post_asset_folder 功能，将当前文章所用的图片放置到source目录下的文章同名资源目录下，以 <code>![](image.jpg)</code> 方式引用</p>
 <p>Markdown语法：<a href="https://blog.csdn.net/qcx321/article/details/53780672" target="_blank" rel="noopener">https://blog.csdn.net/qcx321/article/details/53780672</a></p>
 <p><strong>我写的挺不详细的……还是看视频吧<a href="https://www.bilibili.com/video/BV1cW411A7Jx?from=search&amp;seid=7807288584987915081" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1cW411A7Jx?from=search&amp;seid=7807288584987915081</a></strong></p>
-<p>   如果有啥出错可以随时call我，毕竟我当时踩了好多坑o(╥﹏╥)o</p>
-<p>就是闲的（by九日文❥）</p>
+<hr>
+<p>**如果有啥出错可以随时call我，毕竟我当时踩了好多坑o(╥﹏╥)o</p>
+<p>就是闲的（by九日文❥）**</p>
 <p>date: 2020-05-20 10:24:18</p>
 <p>tags:</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>请回答1988 最近刚看的一部韩剧，我个人觉得超好看，几乎每一集都有那个戳到你心里的点，整部剧每一个人都很暖，太真实了无论是情节还是人物。 百度：《请回答1988》刻画了5个家庭和10余个主要人物，人物戏份平均，谁都不是绝对主角；情感浓度也很均匀，谁也不是人生输赢家。这部剧不依靠高颜值的演员，没有大喜大悲的人物情感，没有跌宕起伏的人物命运，甚至也没有强烈的情节和反转，但该剧征服了很多观众的心。</title>
+    <url>/2020/05/20/1988/</url>
+    <content><![CDATA[<p><img src="/images/1988.22.jpg" alt=""></p>
+<hr>
+<p><strong>“爸爸也是第一次做爸爸啊”</strong></p>
+<p><img src="/images/1988.2.jpg" alt=""></p>
+<hr>
+<p><strong>“神不能无处不在，所以创造了妈妈”</strong></p>
+<p><img src="/images/1988.3.jpg" alt=""></p>
+<hr>
+<p><strong>“亲不如邻”：</strong>谁家做了什么好吃的，整条街上的人都能尝到。有困难了大家一起帮着想办法，开心了就聚到一起吃吃饭唱唱歌打打花牌。不开心了就喝喝烧酒对着诉苦。</p>
+<p><img src="/images/1988.28.jpg" alt=""></p>
+<hr>
+<p><strong>“双门洞小伙伴们的友情”</strong></p>
+<p>每周末都聚在一个房间里吃饭看电影，关系好到可以盖一个被子。</p>
+<p><img src="/images/1988.7.jpg" alt=""></p>
+<p><img src="/images/1988.6.jpg" alt=""></p>
+<p><img src="/images/1988.4.jpg" alt=""></p>
+<p><img src="/images/1988.5.jpg" alt=""></p>
+<p>稳重踏实的学霸善宇，幽默睿智的娃娃鱼，善良单纯的学渣德善，毒舌但温暖的正焕还有可爱的阿泽。</p>
+<hr>
+<p><strong>德善</strong></p>
+<p>第一集，早上，宝拉要吃荷包蛋，余晖也要吃荷包蛋，德善没有说，德善妈妈拉开冰箱，发现只有两个荷包蛋</p>
+<p><img src="/images/1988.11.jpg" alt=""></p>
+<p>这个女孩懂事得让人心疼</p>
+<p><img src="/images/1988.12.jpg" alt=""></p>
+<p><img src="/images/1988.13.jpg" alt=""></p>
+<p><img src="/images/1988.14.jpg" alt=""></p>
+<p><img src="/images/1988.15.jpg" alt=""></p>
+<p><img src="/images/1988.16.jpg" alt=""></p>
+<hr>
+<p><strong>德善正焕</strong></p>
+<p>正焕其实只是嘴上硬，对德善也很好。</p>
+<p><img src="/images/1988.18.jpg" alt=""></p>
+<p>每天早上假装系鞋带等德善上学。</p>
+<p>公交车颠簸厉害就双臂护住德善。</p>
+<p>德善去读书室回家很晚他不放心就一直等。</p>
+<p>正焕只能看着阿泽出现在德善面前，而自己因为三个红灯，失去了那个机会。他终于明白了不是缘分造成的，是时机。因为自己数不清的犹豫，他永远与缘分失之交臂，失去了一个爱了多年的女孩。</p>
+<p><img src="/images/1988.8.jpg" alt=""></p>
+<p><img src="/images/1988.9.jpg" alt=""></p>
+<p><img src="/images/1988.10.jpg" alt=""></p>
+<p><img src="/images/1988.24.jpg" alt=""></p>
+<hr>
+<p><strong>德善阿泽</strong></p>
+<p>在网上看到一句，说阿泽才是对“知世ss故而不世故，才是最善良的成熟”。</p>
+<p><img src="/images/1988.19.jpg" alt=""></p>
+<p>阿泽一直是被保护良好的“双门洞纪念物”，不会扣扣子娃娃鱼帮他扣好，不会系鞋带狗焕帮他系好，不会开酸奶德善帮他开好，不会用筷子身边朋友帮忙把菜夹好，出去比赛爸爸帮他打点好。德善朋友偶尔来玩，想去看看阿泽，德善一口回绝：“阿泽不行。”</p>
+<p>看起来天然无害的小朋友，内心却充满着极强的胜负欲，死也不想当第二，他清楚而明白地知道自己到底想要什么，朋友们开玩笑问他喜不喜欢德善，他目光坚定，斩钉截铁：“我喜欢德善，不是作为朋友，而是作为女人喜欢她。”</p>
+<p><img src="/images/1988.20.jpg" alt=""></p>
+<p><img src="/images/1988.21.jpg" alt=""></p>
+<p><img src="/images/1988.26.jpg" alt=""></p>
+<p><img src="/images/1988.27.jpg" alt=""></p>
+<hr>
+<p><strong>日常转载知乎(<em>/ω＼</em>)：<a href="https://www.zhihu.com/question/38755894" target="_blank" rel="noopener">https://www.zhihu.com/question/38755894</a></strong></p>
+<p>date: 2020-05-20 11:21:23<br>tags:</p>
 ]]></content>
   </entry>
 </search>
