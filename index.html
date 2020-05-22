@@ -1,18 +1,1160 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0078E7"><meta name="author" content="九日文"><meta name="copyright" content="九日文"><meta name="generator" content="Hexo 4.2.1"><meta name="theme" content="hexo-theme-yun"><meta property="og:type" content="website">
-<meta property="og:title" content="WAAW">
-<meta property="og:url" content="https://waaw145.github.io/index.html">
-<meta property="og:site_name" content="WAAW">
-<meta property="og:locale" content="zh_CN">
-<meta property="article:author" content="九日文">
-<meta name="twitter:card" content="summary"><title>WAAW</title><link rel="shortcut icon" href="/yun.svg"><link rel="mask-icon" href="/yun.svg" color="#0078E7"><link rel="preload" href="/js/ui/banner.js" as="script"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="preload" href="/js/utils.js" as="script"><link rel="preload" href="/js/hexo-theme-yun.js" as="script"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script id="yun-config">
-    const Yun = window.Yun || {};
-    window.CONFIG = {"root":"/","title":"九日文的小站","version":"0.7.2","anonymous_image":"https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/avatar/none.jpg","say":{"api":"https://v1.hitokoto.cn","hitokoto":true},"fireworks":{"colors":["102, 167, 221","62, 131, 225","33, 78, 194"]}};
-  </script><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;family=Source+Code+Pro&amp;display=swap" media="none" onload="this.media='all'"><script src="//at.alicdn.com/t/font_1140697_4i778vmn3jg.js" async></script><script src="https://cdn.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js" defer></script><div class="js-Pjax"></div></head><body class="is-home"><script defer src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script defer src="/js/ui/fireworks.js"></script><canvas class="fireworks"></canvas><canvas id="trianglify"></canvas><script defer src="https://cdn.jsdelivr.net/npm/trianglify@latest/dist/trianglify.min.js"></script><script>document.addEventListener("DOMContentLoaded", () => {
-  const pattern = Trianglify({
-    width: 800,
-    height: 600,
-    cell_size: 75,
-    palette: ["YlGnBu", "GnBu", "Purples", "Blues"],
-  });
-  document.body.appendChild(pattern.canvas(trianglify));
-});</script><div class="container"><a class="sidebar-toggle sidebar-toggle-fixed hty-icon-button"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><aside class="sidebar"><script defer src="/js/sidebar.js"></script><div class="sidebar-panel sidebar-panel-active" id="site-overview-wrap"><div class="site-info"><a class="site-author-avatar" href="/about/" title="九日文"><img width="96" loading="lazy" src="/Yun.png" alt="九日文"></a><div class="site-author-name"><a href="/about/">九日文</a></div><a class="site-name" href="/about/site.html">WAAW</a><sub class="site-subtitle"></sub><div class="site-desciption"></div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="首页"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-home-4-line"></use></svg></span></a><div class="site-state-item site-state-posts"><a href="/archives/" title="归档"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-archive-line"></use></svg></span><span class="site-state-item-count">7</span></a></div><a class="site-state-item hty-icon-button" href="https://yun.yunyoujun.cn" target="_blank" rel="noopener" title="文档"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-settings-line"></use></svg></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" href="/atom.xml" title="RSS" target="_blank" style="color:orange"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-rss-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://wpa.qq.com/msgrd?v=3&amp;uin=910426929&amp;site=qq&amp;menu=yes" title="QQ" target="_blank" style="color:#12B7F5"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-qq-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://github.com/YunYouJun" title="GitHub" target="_blank" style="color:#181717"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-github-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="mailto:me@yunyoujun.cn" title="E-Mail" target="_blank" style="color:#8E71C1"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-mail-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://weibo.com/jizhideyunyoujun" title="微博" target="_blank" style="color:#E6162D"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-weibo-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://www.douban.com/people/yunyoujun/" title="豆瓣" target="_blank" style="color:#007722"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-douban-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://music.163.com/#/user/home?id=247102977" title="网易云音乐" target="_blank" style="color:#C20C0C"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-netease-cloud-music-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://www.zhihu.com/people/yunyoujun/" title="知乎" target="_blank" style="color:#0084FF"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-zhihu-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://space.bilibili.com/1579790" title="哔哩哔哩" target="_blank" style="color:#FF8EB3"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-bilibili-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://twitter.com/YunYouJun" title="Twitter" target="_blank" style="color:#1da1f2"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-twitter-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://t.me/elpsycn" title="Telegram Channel" target="_blank" style="color:#0088CC"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-telegram-fill"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://travellings.now.sh/" title="Travelling" target="_blank" style="color:black"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-send-plane-2-line"></use></svg></a></div><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的小伙伴们" style="color:dodgerblue"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-genderless-line"></use></svg></a></div></div></aside><main class="sidebar-translate" id="content"><div id="banner"><div class="banner-line vertical-line-top"></div><div class="banner-line vertical-line-bottom"></div><div class="cloud"><svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" fill="white"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0" opacity="0.7"></use><use xlink:href="#gentle-wave" x="48" y="3" opacity="0.5"></use><use xlink:href="#gentle-wave" x="48" y="5" opacity="0.3"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><a id="goDown" aria-label="go-down" href="javascript:window.scrollTo(0, banner.clientHeight);"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-arrow-down-s-line"></use></svg></a></div><script src="/js/ui/banner.js"></script><div id="say"><span id="say-content"></span><small id="say-author"></small><small id="say-from"></small></div><script async src="/js/say.js"></script><section class="hty-layout-grid" id="recent-posts"><div class="hty-layout-grid__cell hty-layout-grid__cell--span-12"><article class="hty-card post-card" itemscope itemtype="https://schema.org/Article"><link itemprop="mainEntityOfPage" href="https://WAAW145.github.io/2020/05/22/sbpk/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="九日文"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="WAAW"></span><div class="post-card-header"><header class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="/2020/05/22/sbpk/">赛博朋克</a></h2><div class="post-meta"><div class="post-time" style="display:inline-block"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="创建时间：2020-05-22 17:16:27" itemprop="dateCreated datePublished" datetime="2020-05-22T17:16:27+08:00">2020-05-22</time></div></div></header></div><div class="post-card-content text-center"><div class="post-card-excerpt post-markdown"></div></div><div class="hty-card__actions post-card__actions"><div class="post-card-category"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span> </div><div class="post-card-tag"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span></div></div></article></div><div class="hty-layout-grid__cell hty-layout-grid__cell--span-12"><article class="hty-card post-card" itemscope itemtype="https://schema.org/Article"><link itemprop="mainEntityOfPage" href="https://WAAW145.github.io/2020/05/20/1988/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="九日文"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="WAAW"></span><div class="post-card-header"><header class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="/2020/05/20/1988/">请回答1988</a></h2><div class="post-meta"><div class="post-time" style="display:inline-block"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="创建时间：2020-05-20 11:21:23" itemprop="dateCreated datePublished" datetime="2020-05-20T11:21:23+08:00">2020-05-20</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-2-line"></use></svg></span> <time title="修改时间：2020-05-21 19:29:11" itemprop="dateModified" datetime="2020-05-21T19:29:11+08:00">2020-05-21</time></div></div></header></div><div class="post-card-content text-center"><div class="post-card-excerpt post-markdown"></div></div><div class="hty-card__actions post-card__actions"><div class="post-card-category"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span> </div><div class="post-card-tag"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span></div></div></article></div><div class="hty-layout-grid__cell hty-layout-grid__cell--span-12"><article class="hty-card post-card" itemscope itemtype="https://schema.org/Article"><link itemprop="mainEntityOfPage" href="https://WAAW145.github.io/2020/05/20/djbk/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="九日文"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="WAAW"></span><div class="post-card-header"><header class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="/2020/05/20/djbk/">HEXO搭建个人博客教程</a></h2><div class="post-meta"><div class="post-time" style="display:inline-block"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="创建时间：2020-05-20 10:24:18" itemprop="dateCreated datePublished" datetime="2020-05-20T10:24:18+08:00">2020-05-20</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-2-line"></use></svg></span> <time title="修改时间：2020-05-21 19:27:52" itemprop="dateModified" datetime="2020-05-21T19:27:52+08:00">2020-05-21</time></div></div></header></div><div class="post-card-content text-center"><div class="post-card-excerpt post-markdown"></div></div><div class="hty-card__actions post-card__actions"><div class="post-card-category"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span> </div><div class="post-card-tag"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span></div></div></article></div><div class="hty-layout-grid__cell hty-layout-grid__cell--span-12"><article class="hty-card post-card" itemscope itemtype="https://schema.org/Article"><link itemprop="mainEntityOfPage" href="https://WAAW145.github.io/2020/05/15/houqi/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="九日文"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="WAAW"></span><div class="post-card-header"><header class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="/2020/05/15/houqi/">后期修图、剪辑（Android）</a></h2><div class="post-meta"><div class="post-time" style="display:inline-block"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="创建时间：2020-05-15 18:16:59" itemprop="dateCreated datePublished" datetime="2020-05-15T18:16:59+08:00">2020-05-15</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-2-line"></use></svg></span> <time title="修改时间：2020-05-16 09:15:10" itemprop="dateModified" datetime="2020-05-16T09:15:10+08:00">2020-05-16</time></div></div></header></div><div class="post-card-content text-center"><div class="post-card-excerpt post-markdown"></div></div><div class="hty-card__actions post-card__actions"><div class="post-card-category"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span> </div><div class="post-card-tag"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span></div></div></article></div><div class="hty-layout-grid__cell hty-layout-grid__cell--span-12"><article class="hty-card post-card" itemscope itemtype="https://schema.org/Article"><link itemprop="mainEntityOfPage" href="https://WAAW145.github.io/2020/05/15/wz/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="九日文"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="WAAW"></span><div class="post-card-header"><header class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="/2020/05/15/wz/">硬核网站推荐</a></h2><div class="post-meta"><div class="post-time" style="display:inline-block"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="创建时间：2020-05-15 16:11:38" itemprop="dateCreated datePublished" datetime="2020-05-15T16:11:38+08:00">2020-05-15</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-2-line"></use></svg></span> <time title="修改时间：2020-05-18 16:37:50" itemprop="dateModified" datetime="2020-05-18T16:37:50+08:00">2020-05-18</time></div></div></header></div><div class="post-card-content text-center"><div class="post-card-excerpt post-markdown"></div></div><div class="hty-card__actions post-card__actions"><div class="post-card-category"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span> </div><div class="post-card-tag"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span></div></div></article></div><div class="hty-layout-grid__cell hty-layout-grid__cell--span-12"><article class="hty-card post-card" itemscope itemtype="https://schema.org/Article"><link itemprop="mainEntityOfPage" href="https://WAAW145.github.io/2020/05/14/title/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="九日文"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="WAAW"></span><div class="post-card-header"><header class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="/2020/05/14/title/">第一次emm</a></h2><div class="post-meta"><div class="post-time" style="display:inline-block"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="创建时间：2020-05-14 19:32:06" itemprop="dateCreated datePublished" datetime="2020-05-14T19:32:06+08:00">2020-05-14</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-2-line"></use></svg></span> <time title="修改时间：2020-05-15 08:42:24" itemprop="dateModified" datetime="2020-05-15T08:42:24+08:00">2020-05-15</time></div></div></header></div><div class="post-card-content text-center"><div class="post-card-excerpt post-markdown"></div></div><div class="hty-card__actions post-card__actions"><div class="post-card-category"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span> </div><div class="post-card-tag"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span></div></div></article></div><div class="hty-layout-grid__cell hty-layout-grid__cell--span-12"><article class="hty-card post-card" itemscope itemtype="https://schema.org/Article"><link itemprop="mainEntityOfPage" href="https://WAAW145.github.io/2020/05/14/hello-world/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="九日文"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="WAAW"></span><div class="post-card-header"><header class="post-header"><h2 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="/2020/05/14/hello-world/">Hello World</a></h2><div class="post-meta"><div class="post-time" style="display:inline-block"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="创建时间：2020-05-14 10:40:08" itemprop="dateCreated datePublished" datetime="2020-05-14T10:40:08+08:00">2020-05-14</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-2-line"></use></svg></span> <time title="修改时间：2020-05-15 19:31:05" itemprop="dateModified" datetime="2020-05-15T19:31:05+08:00">2020-05-15</time></div></div></header></div><div class="post-card-content text-center"><div class="post-card-excerpt post-markdown"></div></div><div class="hty-card__actions post-card__actions"><div class="post-card-category"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span> </div><div class="post-card-tag"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span></div></div></article></div></section></main><footer class="sidebar-translate" id="footer"><div class="copyright"><span>&copy; 2019 – 2020 </span><span class="with-love" id="animate"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-cloud-line"></use></svg></span><span class="author"> 九日文</span></div><div class="powered"><span>由 <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> 驱动 v4.2.1</span><span class="footer-separator">|</span><span>主题 - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v0.7.2</span></div></footer><a class="hty-icon-button" id="goUp" aria-label="back-to-top" href="#"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-arrow-up-s-line"></use></svg><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a></div><script defer src="/js/utils.js"></script><script defer src="/js/hexo-theme-yun.js"></script></body></html>
+<!DOCTYPE html>
+
+
+<html lang="zh-CN">
+
+
+<head>
+  <meta charset="utf-8" />
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+<style>
+    .pace .pace-progress {
+        background: #1E92FB; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+</style>
+
+  <title>
+     WAAW
+  </title>
+  <meta name="generator" content="hexo-theme-ayer">
+  
+  <link rel="shortcut icon" href="/favicon.ico" />
+  
+  
+<link rel="stylesheet" href="/dist/main.css">
+
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/css/remixicon.min.css">
+
+  
+<link rel="stylesheet" href="/css/custom.css">
+
+  
+  
+<script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script>
+
+  
+  
+
+  
+
+</head>
+
+</html>
+
+<body>
+  <div id="app">
+    <main class="content on">
+      
+<section class="cover">
+    
+      
+      <a class="forkMe" href="https://github.com/WAAW145/WAAW145.github.io"
+        target="_blank"><img width="149" height="149" src="/images/forkme.png"
+          class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
+    
+  <div class="cover-frame">
+    <div class="bg-box">
+      <img src="/images/cover9.jpg" alt="image frame" />
+    </div>
+    <div class="cover-inner text-center text-white">
+      <h1><a href="/">WAAW</a></h1>
+      <div id="subtitle-box">
+        
+        <span id="subtitle"></span>
+        
+      </div>
+      <div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="cover-learn-more">
+    <a href="javascript:void(0)" class="anchor"><i class="ri-arrow-down-line"></i></a>
+  </div>
+</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+
+<div id="main">
+  <section class="outer">
+  <article class="articles">
+    
+    
+    
+    
+    <article id="post-sbpk" class="article article-type-post" itemscope
+  itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2020/05/22/sbpk/"
+    >赛博朋克</a> 
+</h2>
+ 
+
+    </header>
+    
+
+    
+    <div class="article-meta">
+      <a href="/2020/05/22/sbpk/" class="article-date">
+  <time datetime="2020-05-22T09:16:27.517Z" itemprop="datePublished">2020-05-22</time>
+</a>
+      
+      
+      
+      
+    </div>
+    
+
+    
+
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+
+      
+      <p>​        </p>
+<p>​        <strong>赛博朋克</strong>（英语：Cyberpunk，又译作“<strong>电驭叛客</strong>”）是“<a href="https://baike.baidu.com/item/控制论" target="_blank" rel="noopener">控制论</a>”（<strong>Cyber</strong>netics）与“<a href="https://baike.baidu.com/item/朋克" target="_blank" rel="noopener">朋克</a>”（<strong>Punk</strong>）的结合词，又称<strong>数字朋克、<a href="https://baike.baidu.com/item/赛伯朋克/759637" target="_blank" rel="noopener">赛伯朋克</a>、电脑朋客、网络朋客</strong>，背景大都建立于“低端生活与高等科技的结合”（combination of low-life and high tech），通常拥有先进的<a href="https://baike.baidu.com/item/科学技术" target="_blank" rel="noopener">科学技术</a>，再以一定程度崩坏的<a href="https://baike.baidu.com/item/社会结构" target="_blank" rel="noopener">社会结构</a>做对比；故事框架通常是<a href="https://baike.baidu.com/item/社会秩序" target="_blank" rel="noopener">社会秩序</a>受到<a href="https://baike.baidu.com/item/政府" target="_blank" rel="noopener">政府</a>或<a href="https://baike.baidu.com/item/财团" target="_blank" rel="noopener">财团</a>或<a href="https://baike.baidu.com/item/秘密组织" target="_blank" rel="noopener">秘密组织</a>的高度控制，而角色利用其中的漏洞做出了某种突破。   </p>
+<p>​        现在赛博朋克的情节通常围绕黑客、人工智能及大型企业之间的矛盾而展开，背景设在不远的将来的一个<a href="https://baike.baidu.com/item/反乌托邦/9441528" target="_blank" rel="noopener">反乌托邦</a>地球，而不是早期赛博朋克的外太空。它实际上标志着针对以往科幻小说不注重信息技术的具体设定的缺点的改善和进步。</p>
+<p><img src="/images/sb4.jpg" alt=""></p>
+<h1 id="如何修出赛博朋克色调"><a href="#如何修出赛博朋克色调" class="headerlink" title="如何修出赛博朋克色调"></a>如何修出赛博朋克色调</h1><p>​        赛博朋克风格，光听名字就觉得很酷，<strong>画面低亮度、高饱和、强对比，色彩以冷色调为主，搭配着霓虹光感的暖色点缀，打造斑斓魅惑的夜景。</strong> 赛博朋克适用于拍摄的是<strong>夜景</strong>下城市<strong>街道彩色灯光</strong>的情况下。如果是下雨天，朦胧的灯光，路上灯光的倒影，更有迷离的感觉。画面不能抖！不能有噪点！拍照时，把测光点放在画面中间调的位置，保留亮部和暗部的细节。平时看惯了胶片风、小清新、极简主义，赛博朋克却反其道而行，让照片看起来更有质感。</p>
+<p><img src="/images/sb2.jpg" alt=""></p>
+<h2 id="分析色调"><a href="#分析色调" class="headerlink" title="分析色调"></a><strong>分析色调</strong></h2><p>整体一般拍摄于夜晚，整体偏暗，且暗部是黑色的。</p>
+<p><strong>①夜晚偏暗，且暗部为黑色。</strong></p>
+<p><strong>②暗部偏灰。</strong></p>
+<p><strong>③颜色色相以紫色、蓝色、洋红为主</strong></p>
+<p><strong>④颜色高饱和与低明亮度。</strong></p>
+<p><strong>⑤阴影偏蓝，高光偏洋红。</strong></p>
+<p><img src="/images/sb1.jpg" alt=""></p>
+<h1 id="MIX调色详解"><a href="#MIX调色详解" class="headerlink" title="MIX调色详解"></a>MIX调色详解</h1><p><img src="/images/sb3.jpg" alt=""></p>
+<p>🚦主要为城市夜景</p>
+<p>🚦暗部最好为黑色灰色</p>
+<p>🚦曝光在+10左右</p>
+<p>🚦层次在+20左右</p>
+<p>（根据背景颜色与霓虹灯亮度调整，过高背景容易曝从而出现明显分层）</p>
+<p>（适用于霓虹灯）</p>
+<p>🚦适当的调低色温</p>
+<p>（-60 到 -80之间 -80左右会偏蓝，-60左右会偏红）</p>
+<p>🚦并且拉高色相里蓝色与红色饱和度的数值同时降低蓝色色相</p>
+<p>（我是习惯性拉满只要适当拉动这两个数值就可以调出紫色、粉色）</p>
+<p>🚦对比度-50</p>
+<p>（对比度放在最后是为了调整整体画面，调低可以使背景呈现青色）</p>
+<p>Ps：因为每个人拍照的最终效果不同所以会导致所以会导致最终调试出现偏差，需要微调。</p>
+<p><img src="/images/sb5.jpg" alt=""></p>
+<p><img src="/images/sb6.jpg" alt=""></p>
+<p>转<a href="https://tuchong.com/1873597/t/32314381/" target="_blank" rel="noopener">https://tuchong.com/1873597/t/32314381/</a></p>
+<p><a href="https://www.xiaohongshu.com/discovery/item/5cd3f5ff000000000d016596" target="_blank" rel="noopener">https://www.xiaohongshu.com/discovery/item/5cd3f5ff000000000d016596</a></p>
+<p>date: 2020-05-22 17:16:27</p>
+
+      
+      <!-- reward -->
+      
+    </div>
+    
+    
+      <!-- copyright -->
+      
+    <footer class="article-footer">
+      
+      
+
+    </footer>
+
+  </div>
+
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+</article>
+    
+    <article id="post-1988" class="article article-type-post" itemscope
+  itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2020/05/20/1988/"
+    >请回答1988</a> 
+</h2>
+ 
+
+    </header>
+    
+
+    
+    <div class="article-meta">
+      <a href="/2020/05/20/1988/" class="article-date">
+  <time datetime="2020-05-20T03:21:23.673Z" itemprop="datePublished">2020-05-20</time>
+</a>
+      
+      
+      
+      
+    </div>
+    
+
+    
+
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+
+      
+      <p>  最近刚看的一部韩剧，我个人觉得超好看，几乎每一集都有那个戳到你心里的点，整部剧每一个人都很暖，太真实了无论是情节还是人物。<br>  百度：《请回答1988》刻画了5个家庭和10余个主要人物，人物戏份平均，谁都不是绝对主角；情感浓度也很均匀，谁也不是人生输赢家。这部剧不依靠高颜值的演员，没有大喜大悲的人物情感，没有跌宕起伏的人物命运，甚至也没有强烈的情节和反转，但该剧征服了很多观众的心。<br><img src="/images/1988.22.jpg" alt=""></p>
+<hr>
+<p><strong>“爸爸也是第一次做爸爸啊”</strong></p>
+<p><img src="/images/1988.2.jpg" alt=""></p>
+<hr>
+<p><strong>“神不能无处不在，所以创造了妈妈”</strong></p>
+<p><img src="/images/1988.3.jpg" alt=""></p>
+<hr>
+<p><strong>“亲不如邻”：</strong>谁家做了什么好吃的，整条街上的人都能尝到。有困难了大家一起帮着想办法，开心了就聚到一起吃吃饭唱唱歌打打花牌。不开心了就喝喝烧酒对着诉苦。</p>
+<p><img src="/images/1988.28.jpg" alt=""></p>
+<hr>
+<p><strong>“双门洞小伙伴们的友情”</strong></p>
+<p>每周末都聚在一个房间里吃饭看电影，关系好到可以盖一个被子。</p>
+<p><img src="/images/1988.7.jpg" alt=""></p>
+<p><img src="/images/1988.6.jpg" alt=""></p>
+<p><img src="/images/1988.4.jpg" alt=""></p>
+<p><img src="/images/1988.5.jpg" alt=""></p>
+<p>稳重踏实的学霸善宇，幽默睿智的娃娃鱼，善良单纯的学渣德善，毒舌但温暖的正焕还有可爱的阿泽。</p>
+<hr>
+<p><strong>德善</strong></p>
+<p>第一集，早上，宝拉要吃荷包蛋，余晖也要吃荷包蛋，德善没有说，德善妈妈拉开冰箱，发现只有两个荷包蛋</p>
+<p><img src="/images/1988.11.jpg" alt=""></p>
+<p>这个女孩懂事得让人心疼</p>
+<p><img src="/images/1988.12.jpg" alt=""></p>
+<p><img src="/images/1988.13.jpg" alt=""></p>
+<p><img src="/images/1988.14.jpg" alt=""></p>
+<p><img src="/images/1988.15.jpg" alt=""></p>
+<p><img src="/images/1988.16.jpg" alt=""></p>
+<hr>
+<p><strong>德善正焕</strong></p>
+<p>正焕其实只是嘴上硬，对德善也很好。</p>
+<p><img src="/images/1988.18.jpg" alt=""></p>
+<p>每天早上假装系鞋带等德善上学。<br>公交车颠簸厉害就双臂护住德善。<br>德善去读书室回家很晚他不放心就一直等。<br>正焕只能看着阿泽出现在德善面前，而自己因为三个红灯，失去了那个机会。他终于明白了不是缘分造成的，是时机。因为自己数不清的犹豫，他永远与缘分失之交臂，失去了一个爱了多年的女孩。</p>
+<p><img src="/images/1988.8.jpg" alt=""></p>
+<p><img src="/images/1988.9.jpg" alt=""></p>
+<p><img src="/images/1988.10.jpg" alt=""></p>
+<p><img src="/images/1988.24.jpg" alt=""></p>
+<hr>
+<p><strong>德善阿泽</strong></p>
+<p>在网上看到一句，说阿泽才是对“知世故而不世故，才是最善良的成熟”。</p>
+<p><img src="/images/1988.19.jpg" alt=""></p>
+<p>阿泽一直是被保护良好的“双门洞纪念物”，不会扣扣子娃娃鱼帮他扣好，不会系鞋带狗焕帮他系好，不会开酸奶德善帮他开好，不会用筷子身边朋友帮忙把菜夹好，出去比赛爸爸帮他打点好。德善朋友偶尔来玩，想去看看阿泽，德善一口回绝：“阿泽不行。”<br>看起来天然无害的小朋友，内心却充满着极强的胜负欲，死也不想当第二，他清楚而明白地知道自己到底想要什么，朋友们开玩笑问他喜不喜欢德善，他目光坚定，斩钉截铁：“我喜欢德善，不是作为朋友，而是作为女人喜欢她。”</p>
+<p><img src="/images/1988.20.jpg" alt=""></p>
+<p><img src="/images/1988.21.jpg" alt=""></p>
+<p><img src="/images/1988.26.jpg" alt=""></p>
+<p><img src="/images/1988.27.jpg" alt=""></p>
+<hr>
+<p><strong>日常转载知乎(<em>/ω＼</em>)：<a href="https://www.zhihu.com/question/38755894" target="_blank" rel="noopener">https://www.zhihu.com/question/38755894</a></strong></p>
+<p>date: 2020-05-20 11:21:23</p>
+
+      
+      <!-- reward -->
+      
+    </div>
+    
+    
+      <!-- copyright -->
+      
+    <footer class="article-footer">
+      
+      
+
+    </footer>
+
+  </div>
+
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+</article>
+    
+    <article id="post-djbk" class="article article-type-post" itemscope
+  itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2020/05/20/djbk/"
+    >HEXO搭建个人博客教程</a> 
+</h2>
+ 
+
+    </header>
+    
+
+    
+    <div class="article-meta">
+      <a href="/2020/05/20/djbk/" class="article-date">
+  <time datetime="2020-05-20T02:24:18.380Z" itemprop="datePublished">2020-05-20</time>
+</a>
+      
+      
+      
+      
+    </div>
+    
+
+    
+
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+
+      
+      <p><strong>“所谓博客，都是孤芳自赏”</strong></p>
+<hr>
+<p>利用hexo+github搭建博客，简单省钱不用买域名哈哈，然后记录一下搭建的过程，都是在b站还有一些大佬的博客里学的（网课老师讲的不认真听，花里胡哨倒是学的乐此不彼⁄(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄），后面会放链接，就不一一列出了。</p>
+<h2 id="准备-推荐用谷歌浏览器"><a href="#准备-推荐用谷歌浏览器" class="headerlink" title="准备(推荐用谷歌浏览器)"></a>准备(推荐用谷歌浏览器)</h2><p>1.安装node.js    <a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a></p>
+<p><img src="/images/image-20200520103557329.png" alt=""></p>
+<p>2.下载安装git（官网下载安装）<a href="https://gitforwindows.org/" target="_blank" rel="noopener">https://gitforwindows.org/</a></p>
+<p>   拥有GitHub账号<a href="https://github.com/" target="_blank" rel="noopener">https://github.com/</a></p>
+<p>3.下载和安装hexo   <a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/</a></p>
+<p>打开cmd（win+r     cmd）并输入<code>npm install hexo-cli -g</code></p>
+<p>在桌面上新建一个空文件夹名为hexo</p>
+<p>cmd安装完成之后打开Git bash</p>
+<p>在cmd中进入hexo文件夹后输入<code>$ hexo init</code></p>
+<h3 id="将博客与Github关联"><a href="#将博客与Github关联" class="headerlink" title="将博客与Github关联"></a>将博客与Github关联</h3><p>1.在部署至github前先新建一个仓库，如<code>blog</code>。</p>
+<p>​    登录github，点头像、setting、Repositories</p>
+<p>2.安装<code>hexo-deployer-git</code>：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<p>3.修改<code>_config.yml</code>文件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: &lt;repository url&gt;</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+
+<p>4.生成静态文件并发布</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g -d</span><br></pre></td></tr></table></figure>
+
+<p>注：如果在之前你有生成ssh公钥，那么就可以直接提交上去，如果没有，则需要填写邮箱以及密码。（生成ssh公钥见）<a href="https://www.jianshu.com/p/a7167e26b086" target="_blank" rel="noopener">https://www.jianshu.com/p/a7167e26b086</a></p>
+<p><strong>到这步基础框架大概就做好了，后面就是主题美化了</strong></p>
+<p><img src="/images/image-20200520105423596.png" alt=""></p>
+<p><img src="/images/image-20200520105533197.png" alt=""></p>
+<p>后面花里胡哨太多了，懒得写(<em>/ω＼</em>)直接看别人的吧</p>
+<p><a href="https://thief.one/2017/03/03/Hexo搭建博客教程/" target="_blank" rel="noopener">https://thief.one/2017/03/03/Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/</a></p>
+<h2 id="写博文"><a href="#写博文" class="headerlink" title="写博文"></a>写博文</h2><p>新建文章命令</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &lt;title&gt;</span><br></pre></td></tr></table></figure>
+
+<p>_posts目录下新建.md文章（在编辑博文，Subline或者Typora）</p>
+<p><img src="/images/image-20200520110204880.png" alt=""></p>
+<p><img src="/images/image-20200520110337252.png" alt=""></p>
+<p>生成静态文件: hexo g<br>提交到github: hexo d</p>
+<h1 id="搭建Hexo博客进阶篇–Hexo文档讲解（二）："><a href="#搭建Hexo博客进阶篇–Hexo文档讲解（二）：" class="headerlink" title="搭建Hexo博客进阶篇–Hexo文档讲解（二）："></a>搭建Hexo博客进阶篇–Hexo文档讲解（二）：</h1><p><a href="https://segmentfault.com/a/1190000009478129" target="_blank" rel="noopener">https://segmentfault.com/a/1190000009478129</a></p>
+<h3 id="关于图片素材"><a href="#关于图片素材" class="headerlink" title="关于图片素材"></a>关于图片素材</h3><p>图片素材按官方教程说法，可统一放置在source/images目录中，并以 <code>![](/images/image.jpg)</code> 方式引用,或者在 _config.yml 打开 post_asset_folder 功能，将当前文章所用的图片放置到source目录下的文章同名资源目录下，以 <code>![](image.jpg)</code> 方式引用</p>
+<p>Markdown语法：<a href="https://blog.csdn.net/qcx321/article/details/53780672" target="_blank" rel="noopener">https://blog.csdn.net/qcx321/article/details/53780672</a></p>
+<p><strong>我写的挺不详细的……还是看视频吧<a href="https://www.bilibili.com/video/BV1cW411A7Jx?from=search&amp;seid=7807288584987915081" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1cW411A7Jx?from=search&amp;seid=7807288584987915081</a></strong></p>
+<hr>
+<p><strong>如果有啥出错可以随时call我，毕竟我当时踩了好多坑o(╥﹏╥)o</strong></p>
+<p>就是闲的（by九日文❥）**</p>
+<p>date: 2020-05-20 10:24:18</p>
+
+      
+      <!-- reward -->
+      
+    </div>
+    
+    
+      <!-- copyright -->
+      
+    <footer class="article-footer">
+      
+      
+
+    </footer>
+
+  </div>
+
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+</article>
+    
+    <article id="post-houqi" class="article article-type-post" itemscope
+  itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2020/05/15/houqi/"
+    >后期修图、剪辑（Android）</a> 
+</h2>
+ 
+
+    </header>
+    
+
+    
+    <div class="article-meta">
+      <a href="/2020/05/15/houqi/" class="article-date">
+  <time datetime="2020-05-15T10:16:59.807Z" itemprop="datePublished">2020-05-15</time>
+</a>
+      
+      
+      
+      
+    </div>
+    
+
+    
+
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+
+      
+      <p>主要是分享一些手机修图软件，毕竟我是一个糙汉纸，美颜瘦脸美图秀秀、轻颜、B612啥的没用过我都不太清楚(<em>/ω＼</em>)，还有我用的是安卓手机，所以苹果的不太清楚。emm当然这些都是我自己觉得好用，大家就当做参考吧，你们有啥好用的爱屁屁也别忘了我啊。</p>
+<h2 id="首先是滤镜和调色："><a href="#首先是滤镜和调色：" class="headerlink" title="首先是滤镜和调色："></a>首先是滤镜和调色：</h2><h3 id="MIX："><a href="#MIX：" class="headerlink" title="MIX："></a>MIX：</h3><p>是一款一滤镜为主的修图软件，里面包含了各种各样的滤镜，还有调色曲线。<br><img src="/images/mix.jpg" alt=""><br>我挺中意的一个就是魔法天空。<br><img src="/images/mix3.jpg" alt=""><br><img src="/images/mix4.jpg" alt=""></p>
+<p>下面是调色对比：<br><img src="/images/mix1.jpg" alt=""><br><img src="/images/mix2.jpg" alt=""></p>
+<h3 id="VSCO"><a href="#VSCO" class="headerlink" title="VSCO:"></a><strong>VSCO</strong>:</h3><p>这个我手机版本不支持，但挺多人说好用。pick!</p>
+<h2 id="然后是修图："><a href="#然后是修图：" class="headerlink" title="然后是修图："></a>然后是修图：</h2><h3 id="PicsArt美易："><a href="#PicsArt美易：" class="headerlink" title="PicsArt美易："></a>PicsArt美易：</h3><p>综合性很强的修图软件,功能强悍哈哈。</p>
+<p><img src="/images/my1.jpg" alt=""><br><img src="/images/my2.jpg" alt=""></p>
+<p>俺用美易修的(✿◡‿◡)：</p>
+<p><img src="/images/my4.jpg" alt=""><br><img src="/images/my3.jpg" alt=""></p>
+<h3 id="Snapseed"><a href="#Snapseed" class="headerlink" title="Snapseed:"></a><strong>Snapseed</strong>:</h3><p>这个我手机版本不兼容，也是听朋友说很好用。尤其这款软件可以去水印……</p>
+<h3 id="foodie"><a href="#foodie" class="headerlink" title="foodie:"></a>foodie:</h3><p>针对吃货的修图软件,是专门针对食物修图。</p>
+<h3 id="黄油相机："><a href="#黄油相机：" class="headerlink" title="黄油相机："></a>黄油相机：</h3><p>文艺范鹅鹅鹅……想打造出电影大片对白的图片效果，找黄油相机就是了。主要是能加一些好看的文字，也有很多不错的模板。</p>
+<p><img src="/images/hy.jpg" alt=""></p>
+<p>牛田洋：<br><img src="/images/hy1.jpg" alt=""><br><img src="/images/hy2.jpg" alt=""></p>
+<p>硇洲岛：<br><img src="/images/hy3.jpg" alt=""><br><img src="/images/hy4.jpg" alt=""></p>
+<h2 id="剪辑："><a href="#剪辑：" class="headerlink" title="剪辑："></a>剪辑：</h2><h3 id="剪映："><a href="#剪映：" class="headerlink" title="剪映："></a>剪映：</h3><p>轻而易剪。剪映是由<a href="https://baike.baidu.com/item/抖音/20784697" target="_blank" rel="noopener">抖音</a>官方推出的一款手机视频编辑工具。可用于手机短视频的剪辑制作和发布。</p>
+<p>主要是操作简单，而且能直接添加抖音收藏的音乐，还有剪同款，卡点视频制作……功能就不多说了。</p>
+<p><img src="/images/jianying.jpg" alt=""></p>
+<p>​           </p>
+<p>大概就这些嗯额(⊙o⊙)…（by九日文）</p>
+<p>date: 2020-05-16 18:16:59<br>tags:</p>
+
+      
+      <!-- reward -->
+      
+    </div>
+    
+    
+      <!-- copyright -->
+      
+    <footer class="article-footer">
+      
+      
+
+    </footer>
+
+  </div>
+
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+</article>
+    
+    <article id="post-wz" class="article article-type-post" itemscope
+  itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2020/05/15/wz/"
+    >硬核网站推荐</a> 
+</h2>
+ 
+
+    </header>
+    
+
+    
+    <div class="article-meta">
+      <a href="/2020/05/15/wz/" class="article-date">
+  <time datetime="2020-05-15T08:11:38.109Z" itemprop="datePublished">2020-05-15</time>
+</a>
+      
+      
+      
+      
+    </div>
+    
+
+    
+
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+
+      
+      <h1 id="下面这些都是平时收藏夹里的网站，也有一些是知乎上面看到的，有学习、影视……，-还有办公网站就不列出来，以后有空单独写一篇-我也懒得分类了，想到哪个就写哪个吧"><a href="#下面这些都是平时收藏夹里的网站，也有一些是知乎上面看到的，有学习、影视……，-还有办公网站就不列出来，以后有空单独写一篇-我也懒得分类了，想到哪个就写哪个吧" class="headerlink" title="下面这些都是平时收藏夹里的网站，也有一些是知乎上面看到的，有学习、影视……，(还有办公网站就不列出来，以后有空单独写一篇)我也懒得分类了，想到哪个就写哪个吧:"></a><strong>下面这些都是平时收藏夹里的网站，也有一些是知乎上面看到的，有学习、影视……，(还有办公网站就不列出来，以后有空单独写一篇)我也懒得分类了，想到哪个就写哪个吧:</strong></h1><h2 id="电影电视剧："><a href="#电影电视剧：" class="headerlink" title="电影电视剧："></a>电影电视剧：</h2><p><a href="https://m.zaizaiba.com/" target="_blank" rel="noopener">https://m.zaizaiba.com/</a></p>
+<h2 id="万能命令："><a href="#万能命令：" class="headerlink" title="万能命令："></a>万能命令：</h2><p><a href="https://wanneng.run/n/" target="_blank" rel="noopener">https://wanneng.run/n/</a><br>（ wn万能命令是一个在线工具效率平台，将各种高质量的在线工具按应用站点聚合起来，让你以方便快捷好记的方式寻找和使用各类在线工具。）可以解析vip视频，下载…..</p>
+<h2 id="芋道源码-——-纯源码解析博客："><a href="#芋道源码-——-纯源码解析博客：" class="headerlink" title="芋道源码 —— 纯源码解析博客："></a>芋道源码 —— 纯源码解析博客：</h2><p><a href="http://www.iocoder.cn/?bilibili&amp;data-structure&amp;t=1574569254520" target="_blank" rel="noopener">http://www.iocoder.cn/?bilibili&amp;data-structure&amp;t=1574569254520</a></p>
+<h2 id="菜鸟技术："><a href="#菜鸟技术：" class="headerlink" title="菜鸟技术："></a>菜鸟技术：</h2><p><a href="https://www.runoob.com/" target="_blank" rel="noopener">https://www.runoob.com/</a> </p>
+<p>各种编程语言挺全的</p>
+<h3 id="ADGuider找网站："><a href="#ADGuider找网站：" class="headerlink" title="ADGuider找网站："></a>ADGuider找网站：</h3><p><a href="https://www.addog.vip/#hot2" target="_blank" rel="noopener">https://www.addog.vip/#hot2</a></p>
+<p><img src="/images/ADG.jpg" alt=""></p>
+<h2 id="音乐直链搜索："><a href="#音乐直链搜索：" class="headerlink" title="音乐直链搜索："></a>音乐直链搜索：</h2><p><a href="https://music.liuzhijin.cn/" target="_blank" rel="noopener">https://music.liuzhijin.cn/</a></p>
+<h2 id="果汁排行榜："><a href="#果汁排行榜：" class="headerlink" title="果汁排行榜："></a>果汁排行榜：</h2><p><a href="http://guozhivip.com/rank/" target="_blank" rel="noopener">http://guozhivip.com/rank/</a><br>果汁排行榜是一个聚合各种排行榜的一个实用网站，你可以利用这个网站轻松查询到各个方面的排行榜。它支持热搜榜，热议榜，影视榜，音乐榜，摄影榜，财富榜，产品榜，游戏榜，热门小说热议榜，App排行榜，小程序排行榜，网站排名榜，美食菜谱热议榜等等。你想了解每天的各个方面的排名，这个网站是非常实用的<br><img src="/images/guozhi.jpg" alt=""></p>
+<h2 id="Kapwing："><a href="#Kapwing：" class="headerlink" title="Kapwing："></a>Kapwing：</h2><p><a href="https://www.kapwing.com/Kapwing" target="_blank" rel="noopener">https://www.kapwing.com/Kapwing</a><br> 是一个操作简单但功能强大的在线 GIF 和视频编辑器。<br><img src="/images/kapwing.jpg" alt=""></p>
+<h2 id="苦瓜书盘："><a href="#苦瓜书盘：" class="headerlink" title="苦瓜书盘："></a>苦瓜书盘：</h2><p><a href="https://kgbook.com/" target="_blank" rel="noopener">https://kgbook.com/</a><br>苦瓜书盘是一个功能强大的书籍搜索网站，它的书籍分类十分全面。</p>
+<h2 id="简答题："><a href="#简答题：" class="headerlink" title="简答题："></a>简答题：</h2><p><a href="http://www.jiandati.com/" target="_blank" rel="noopener">http://www.jiandati.com/</a><br>搜题网站，免费，目前仅支持网页版本，它后续还会上线语音搜题功能、拍照搜题功能、做题模式，当然你现在也可以用它来刷题。特点就是题库全面丰富，并且后续还会继续扩展题库，题目分类非常详细，整体界面清晰简洁。<br><img src="/images/jianda.jpg" alt=""></p>
+<h2 id="大数据导航："><a href="#大数据导航：" class="headerlink" title="大数据导航："></a>大数据导航：</h2><p><a href="http://hao.199it.com/" target="_blank" rel="noopener">http://hao.199it.com/</a><br>互联网趋势分析、全球互联网数据、教育数据、网站排名查询工具、移动应用监测工具、网站热点分析工具、语义分析工、直播数据、游戏数据、数据库、旅游行业工具、地理信息数据、数据可视化工、文本分析工具网站性能工具。</p>
+<h2 id="叮当设计："><a href="#叮当设计：" class="headerlink" title="叮当设计："></a>叮当设计：</h2><p><a href="https://www.dingdangsheji.com/" target="_blank" rel="noopener">https://www.dingdangsheji.com/</a><br>它支持的素材包括：PPT 模板，PS 设计素材，矢量图，XD 资源，Sketch 资源，它提供的 PPT 模板种类非常丰富，模板的质量也是很高。</p>
+<h2 id="福昕云编辑："><a href="#福昕云编辑：" class="headerlink" title="福昕云编辑："></a>福昕云编辑：</h2><p><a href="http://edit.foxitcloud.cn/" target="_blank" rel="noopener">http://edit.foxitcloud.cn/</a><br>福昕云编辑是一个在线 PDF 编辑网站，让你不需要下载软件，直接在网站上面就可以完成 PDF 基本编辑操作</p>
+<h2 id="在线文件转换导航："><a href="#在线文件转换导航：" class="headerlink" title="在线文件转换导航："></a>在线文件转换导航：</h2><p><a href="http://www.alltoall.net/" target="_blank" rel="noopener">http://www.alltoall.net/</a><br>在线文件转换导航是一款支持200多种格式的在线转换工具，并且网站所有格式转换操作完全免费。视频格式，音频格式，图片格式，常见文档，表格格式，演示用文档格式，电子书格式，压缩格式；总之，只有你有文件需要进行格式转换，你都可以打开这个网站试试。</p>
+<h2 id="大木虫学术导航："><a href="#大木虫学术导航：" class="headerlink" title="大木虫学术导航："></a>大木虫学术导航：</h2><p><a href="http://www.4243.net/" target="_blank" rel="noopener">http://www.4243.net/</a><br>学术网站，不仅包括学术搜索网站，国内外文献下载网站，还有学术期刊导航，专利查询导航，科研实用工具，文档搜索导航，国家组织机构，科研信息交流等等网站，自己用过就知道有多强大。</p>
+<h2 id="医学微视："><a href="#医学微视：" class="headerlink" title="医学微视："></a>医学微视：</h2><p><a href="https://www.mvyxws.com/" target="_blank" rel="noopener">https://www.mvyxws.com/</a> 是一个以视频的方式分享各种医学知识的良心网站，强烈推荐。是中国医学科学院健康科普研究中心监制的一个网站，并且不提供销售任何产品，它以短视频的形式帮助你了解各种疾病，通俗易懂，让你轻松了解各种医学知识；当我们遇到不懂的医学知识或者健康问题，直接利用这个网站，找到对应的疾病，就可以轻松找到对应的视频。（ps:当然生病了还是去看医生比较靠谱）</p>
+<h1 id="b站的一些学习视频"><a href="#b站的一些学习视频" class="headerlink" title="b站的一些学习视频"></a>b站的一些学习视频</h1><h2 id="Python教程-600集Python从入门到精通教程（懂中文就能学会）："><a href="#Python教程-600集Python从入门到精通教程（懂中文就能学会）：" class="headerlink" title="Python教程_600集Python从入门到精通教程（懂中文就能学会）："></a>Python教程_600集Python从入门到精通教程（懂中文就能学会）：</h2><p><a href="https://www.bilibili.com/video/BV1ex411x7Em" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1ex411x7Em</a></p>
+<h2 id="C-教程从0到1入门编程："><a href="#C-教程从0到1入门编程：" class="headerlink" title="C++教程从0到1入门编程："></a>C++教程从0到1入门编程：</h2><p><a href="https://www.bilibili.com/video/BV1et411b73Z" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1et411b73Z</a></p>
+<h2 id="C-快速入门系列教程-小甲鱼："><a href="#C-快速入门系列教程-小甲鱼：" class="headerlink" title="C++快速入门系列教程-小甲鱼："></a>C++快速入门系列教程-小甲鱼：</h2><p><a href="https://www.bilibili.com/video/BV1rs411e7oQ" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1rs411e7oQ</a></p>
+<h2 id="小甲鱼）数据结构与算法-："><a href="#小甲鱼）数据结构与算法-：" class="headerlink" title="(小甲鱼）数据结构与算法 ："></a>(小甲鱼）数据结构与算法 ：</h2><p><a href="https://www.bilibili.com/video/BV1Ws411T7Qk" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1Ws411T7Qk</a></p>
+<h2 id="小甲鱼-零基础入门学习Python-小甲鱼-零基础入门学习Python-："><a href="#小甲鱼-零基础入门学习Python-小甲鱼-零基础入门学习Python-：" class="headerlink" title="[小甲鱼]零基础入门学习Python[小甲鱼]零基础入门学习Python ："></a>[小甲鱼]零基础入门学习Python[小甲鱼]零基础入门学习Python ：</h2><p><a href="https://www.bilibili.com/video/BV1xs411Q799" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1xs411Q799</a></p>
+<h2 id="前端入门视频教程-HTML5-CSS3-："><a href="#前端入门视频教程-HTML5-CSS3-：" class="headerlink" title="前端入门视频教程 HTML5+CSS3 ："></a>前端入门视频教程 HTML5+CSS3 ：</h2><p><a href="https://www.bilibili.com/video/BV14J4114768" target="_blank" rel="noopener">https://www.bilibili.com/video/BV14J4114768</a></p>
+<h2 id="《线性代数》："><a href="#《线性代数》：" class="headerlink" title="《线性代数》："></a>《线性代数》：</h2><p><a href="https://www.bilibili.com/video/BV1aW411Q7x1" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1aW411Q7x1</a></p>
+<p>##大概就这些吧，以后要是有更好的再更新吧(by九日文)</p>
+<p><img src="/images/mm515.jpg" alt=""></p>
+<p>date: 2020-05-15 16:11:38</p>
+
+      
+      <!-- reward -->
+      
+    </div>
+    
+    
+      <!-- copyright -->
+      
+    <footer class="article-footer">
+      
+      
+
+    </footer>
+
+  </div>
+
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+</article>
+    
+    <article id="post-title" class="article article-type-post" itemscope
+  itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2020/05/14/title/"
+    >第一次emm</a> 
+</h2>
+ 
+
+    </header>
+    
+
+    
+    <div class="article-meta">
+      <a href="/2020/05/14/title/" class="article-date">
+  <time datetime="2020-05-14T11:32:06.355Z" itemprop="datePublished">2020-05-14</time>
+</a>
+      
+      
+      
+      
+    </div>
+    
+
+    
+
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+
+      
+      <p>从今天开始以后坚持有空就写博客，给自己立一个 flag！<br>主要是分享一些有关计算机的东西，次要就是手机app、电脑软件、微信公众号推荐，还有鸡汤文或者一些脚本，自己一些奇怪的想法。emm……反正也都是自己看，估计朋友们看到这篇文章的机率很小吧 (:那就这样吧，要是浏览量大的话就好好搞。我感觉我的写作就像是小学生作文的文笔写吧，也方便你们阅读哈哈，这里就不纠结了。好吧就是一个开篇，溜了溜了。</p>
+<p>date: 2020-05-14 19:32:06</p>
+
+      
+      <!-- reward -->
+      
+    </div>
+    
+    
+      <!-- copyright -->
+      
+    <footer class="article-footer">
+      
+      
+
+    </footer>
+
+  </div>
+
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+</article>
+    
+    <article id="post-hello-world" class="article article-type-post" itemscope
+  itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2020/05/14/hello-world/"
+    >Hello World</a> 
+</h2>
+ 
+
+    </header>
+    
+
+    
+    <div class="article-meta">
+      <a href="/2020/05/14/hello-world/" class="article-date">
+  <time datetime="2020-05-14T02:40:08.687Z" itemprop="datePublished">2020-05-14</time>
+</a>
+      
+      
+      
+      
+    </div>
+    
+
+    
+
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+
+      
+      <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+
+      
+      <!-- reward -->
+      
+    </div>
+    
+    
+      <!-- copyright -->
+      
+    <footer class="article-footer">
+      
+      
+
+    </footer>
+
+  </div>
+
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+</article>
+    
+  </article>
+  
+
+  
+</section>
+</div>
+
+
+
+
+      <footer class="footer">
+  <div class="outer">
+    <ul>
+      <li>
+        Copyrights &copy;
+        2020
+        <i class="ri-heart-fill heart_icon"></i> 九日文
+      </li>
+    </ul>
+    <ul>
+      <li>
+        
+        
+        
+        由 <a href="https://hexo.io" target="_blank">Hexo</a> 强力驱动
+        <span class="division">|</span>
+        主题 - <a href="https://github.com/Shen-Yu/hexo-theme-ayer" target="_blank">Ayer</a>
+        
+      </li>
+    </ul>
+    <ul>
+      <li>
+        
+        
+        <span>
+  <span><i class="ri-user-3-fill"></i>访问人数:<span id="busuanzi_value_site_uv"></span></s>
+  <span class="division">|</span>
+  <span><i class="ri-eye-fill"></i>浏览次数:<span id="busuanzi_value_page_pv"></span></span>
+</span>
+        
+      </li>
+    </ul>
+    <ul>
+      
+    </ul>
+    <ul>
+      <li>
+        <!-- cnzz统计 -->
+        
+        <script type="text/javascript" src='https://s9.cnzz.com/z_stat.php?id=1278069914&amp;web_id=1278069914'></script>
+        
+      </li>
+    </ul>
+  </div>
+</footer>
+      <div class="float_btns">
+        <div class="totop" id="totop">
+  <i class="ri-arrow-up-line"></i>
+</div>
+
+<div class="todark" id="todark">
+  <i class="ri-moon-line"></i>
+</div>
+
+      </div>
+    </main>
+    <aside class="sidebar on">
+      <button class="navbar-toggle"></button>
+<nav class="navbar">
+  
+  <div class="logo">
+    <a href="/"><img src="/images/ayer.jpg" alt="WAAW"></a>
+  </div>
+  
+  <ul class="nav nav-main">
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/">主页</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/archives">归档</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/categories">分类</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/tags">标签</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="https://music.163.com/#/user/home?id=1935197228" target="_blank" rel="noopener">音乐</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/houqi.md">摄影</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/about">关于我</a>
+    </li>
+    
+  </ul>
+</nav>
+<nav class="navbar navbar-bottom">
+  <ul class="nav">
+    <li class="nav-item">
+      
+      <a class="nav-item-link nav-item-search"  title="搜索">
+        <i class="ri-search-line"></i>
+      </a>
+      
+      
+      <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
+        <i class="ri-rss-line"></i>
+      </a>
+      
+    </li>
+  </ul>
+</nav>
+<div class="search-form-wrap">
+  <div class="local-search local-search-plugin">
+  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
+  <div id="local-search-result" class="local-search-result"></div>
+</div>
+</div>
+    </aside>
+    <script>
+      if (window.matchMedia("(max-width: 768px)").matches) {
+        document.querySelector('.content').classList.remove('on');
+        document.querySelector('.sidebar').classList.remove('on');
+      }
+    </script>
+    <div id="mask"></div>
+
+<!-- #reward -->
+<div id="reward">
+  <span class="close"><i class="ri-close-line"></i></span>
+  <p class="reward-p"><i class="ri-cup-line"></i>求老板发红包</p>
+  <div class="reward-box">
+    
+    <div class="reward-item">
+      <img class="reward-img" src="https://i.loli.net/2020/05/14/Fjewl1SvhBrcdGk.jpg">
+      <span class="reward-type">支付宝</span>
+    </div>
+    
+    
+    <div class="reward-item">
+      <img class="reward-img" src="https://i.loli.net/2020/05/14/8gtedKvC9BZAG7D.jpg">
+      <span class="reward-type">微信</span>
+    </div>
+    
+  </div>
+</div>
+    
+<script src="/js/jquery-2.0.3.min.js"></script>
+
+
+<script src="/js/lazyload.min.js"></script>
+
+<!-- Subtitle -->
+
+<script>
+  try {
+    var typed = new Typed("#subtitle", {
+      strings: ['我要赢一壶酒 ，拿来娶你。', '愿你的冬天永远不缺暖阳。', '欢迎来到九日文的小站。'],
+      startDelay: 0,
+      typeSpeed: 200,
+      loop: true,
+      backSpeed: 100,
+      showCursor: true
+    });
+  } catch (err) {
+    console.log(err)
+  }
+</script>
+
+<!-- Tocbot -->
+
+<script src="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.css">
+<script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js"></script>
+
+<script src="/dist/main.js"></script>
+
+<!-- ImageViewer -->
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css">
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"></script>
+
+<script>
+    function viewer_init() {
+        let pswpElement = document.querySelectorAll('.pswp')[0];
+        let $imgArr = document.querySelectorAll(('.article-entry img:not(.reward-img)'))
+
+        $imgArr.forEach(($em, i) => {
+            $em.onclick = () => {
+                // slider展开状态
+                // todo: 这样不好，后面改成状态
+                if (document.querySelector('.left-col.show')) return
+                let items = []
+                $imgArr.forEach(($em2, i2) => {
+                    let img = $em2.getAttribute('data-idx', i2)
+                    let src = $em2.getAttribute('data-target') || $em2.getAttribute('src')
+                    let title = $em2.getAttribute('alt')
+                    // 获得原图尺寸
+                    const image = new Image()
+                    image.src = src
+                    items.push({
+                        src: src,
+                        w: image.width || $em2.width,
+                        h: image.height || $em2.height,
+                        title: title
+                    })
+                })
+                var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, {
+                    index: parseInt(i)
+                });
+                gallery.init()
+            }
+        })
+    }
+    viewer_init()
+</script>
+
+<!-- MathJax -->
+
+<!-- Katex -->
+
+<!-- busuanzi  -->
+
+
+<script src="/js/busuanzi-2.3.pure.min.js"></script>
+
+
+<!-- ClickLove -->
+
+
+<script src="/js/clickLove.js"></script>
+
+
+<!-- CodeCopy -->
+
+
+<link rel="stylesheet" href="/css/clipboard.css">
+
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+  function wait(callback, seconds) {
+    var timelag = null;
+    timelag = window.setTimeout(callback, seconds);
+  }
+  !function (e, t, a) {
+    var initCopyCode = function(){
+      var copyHtml = '';
+      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+      copyHtml += '<i class="ri-file-copy-2-line"></i><span>COPY</span>';
+      copyHtml += '</button>';
+      $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
+      var clipboard = new ClipboardJS('.btn-copy', {
+        target: function(trigger) {
+          return trigger.nextElementSibling;
+        }
+      });
+      clipboard.on('success', function(e) {
+        let $btn = $(e.trigger);
+        $btn.addClass('copied');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('ri-file-copy-2-line');
+        $icon.addClass('ri-checkbox-circle-line');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPIED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('ri-checkbox-circle-line');
+          $icon.addClass('ri-file-copy-2-line');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
+      clipboard.on('error', function(e) {
+        e.clearSelection();
+        let $btn = $(e.trigger);
+        $btn.addClass('copy-failed');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('ri-file-copy-2-line');
+        $icon.addClass('ri-time-line');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPY FAILED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('ri-time-line');
+          $icon.addClass('ri-file-copy-2-line');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
+    }
+    initCopyCode();
+  }(window, document);
+</script>
+
+
+
+    
+    <div id="music">
+    
+    
+    
+    <iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width="200" height="52"
+        src="//music.163.com/outchain/player?type=2&id=562604208&auto=1&height=32"></iframe>
+</div>
+
+<style>
+    #music {
+        position: fixed;
+        right: 15px;
+        bottom: 0;
+        z-index: 998;
+    }
+</style>
+    
+  <div class="bg_content">
+    <canvas id="canvas"></canvas>
+  </div>
+      <!-- 背景动画 -->
+      <script type="text/javascript" src="/js/particle.js"></script>
+      <!-- 页面点击小红心 -->
+      <script type="text/javascript" src="/js/src/love.js"></script
+
+   </div>
+
+</body>
+
+
