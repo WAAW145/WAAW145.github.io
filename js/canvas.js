@@ -1,10 +1,10 @@
 <script>
 class Circle {
-    //��������
-    //��һ��ԲΪ����
-    //��������� x��y���꣬r�뾶��_mx��_my�ƶ��ľ���
-    //this.r�Ǵ���Բ�İ뾶������Խ��뾶Խ��
-    //this._mx,this._my���ƶ��ľ��룬����Խ���ƶ�
+    //´´½¨¶ÔÏó
+    //ÒÔÒ»¸öÔ²Îª¶ÔÏó
+    //ÉèÖÃËæ»úµÄ x£¬y×ø±ê£¬r°ë¾¶£¬_mx£¬_myÒÆ¶¯µÄ¾àÀë
+    //this.rÊÇ´´½¨Ô²µÄ°ë¾¶£¬²ÎÊýÔ½´ó°ë¾¶Ô½´ó
+    //this._mx,this._myÊÇÒÆ¶¯µÄ¾àÀë£¬²ÎÊýÔ½´óÒÆ¶¯
     constructor(x, y) {
         this.x = x;
         this.y = y;
@@ -14,15 +14,15 @@ class Circle {
 
     }
 
-    //canvas ��Բ�ͻ�ֱ��
-    //��Բ������������canvas��һ��Բ
-    //��ֱ��������Բ���ߣ�Ϊ�˱���ֱ�߹��࣬��ԲȦ����������һ��ֵ�������Զ��ԲȦ���Ͳ������ߴ���
+    //canvas »­Ô²ºÍ»­Ö±Ïß
+    //»­Ô²¾ÍÊÇÕý³£µÄÓÃcanvas»­Ò»¸öÔ²
+    //»­Ö±ÏßÊÇÁ½¸öÔ²Á¬Ïß£¬ÎªÁË±ÜÃâÖ±Ïß¹ý¶à£¬¸øÔ²È¦¾àÀëÉèÖÃÁËÒ»¸öÖµ£¬¾àÀëºÜÔ¶µÄÔ²È¦£¬¾Í²»×öÁ¬Ïß´¦Àí
     drawCircle(ctx) {
         ctx.beginPath();
-        //arc() ����ʹ��һ�����ĵ�Ͱ뾶��Ϊһ�������ĵ�ǰ��·������һ������
+        //arc() ·½·¨Ê¹ÓÃÒ»¸öÖÐÐÄµãºÍ°ë¾¶£¬ÎªÒ»¸ö»­²¼µÄµ±Ç°×ÓÂ·¾¶Ìí¼ÓÒ»Ìõ»¡¡£
         ctx.arc(this.x, this.y, this.r, 0, 360)
         ctx.closePath();
-        ctx.fillStyle = 'rgba(204, 204, 204, 0.3)';
+        ctx.fillStyle = 'rgba(  100,149,237, 0.3)';
         ctx.fill();
     }
 
@@ -32,17 +32,17 @@ class Circle {
         let d = Math.sqrt(dx * dx + dy * dy)
         if (d < 150) {
             ctx.beginPath();
-            //��ʼһ��·�����ƶ���λ�� this.x,this.y����������λ�� _circle.x,_circle.y ��һ���ߣ�
-            ctx.moveTo(this.x, this.y);   //��ʼ��
-            ctx.lineTo(_circle.x, _circle.y);   //�յ�
+            //¿ªÊ¼Ò»ÌõÂ·¾¶£¬ÒÆ¶¯µ½Î»ÖÃ this.x,this.y¡£´´½¨µ½´ïÎ»ÖÃ _circle.x,_circle.y µÄÒ»ÌõÏß£º
+            ctx.moveTo(this.x, this.y);   //ÆðÊ¼µã
+            ctx.lineTo(_circle.x, _circle.y);   //ÖÕµã
             ctx.closePath();
-            ctx.strokeStyle = 'rgba(204, 204, 204, 0.3)';
+            ctx.strokeStyle = 'rgba(    100,149,237， 0.3)';
             ctx.stroke();
         }
     }
 
-    // ԲȦ�ƶ�
-    // ԲȦ�ƶ��ľ����������Ļ��Χ��
+    // Ô²È¦ÒÆ¶¯
+    // Ô²È¦ÒÆ¶¯µÄ¾àÀë±ØÐëÔÚÆÁÄ»·¶Î§ÄÚ
     move(w, h) {
         this._mx = (this.x < w && this.x > 0) ? this._mx : (-this._mx);
         this._my = (this.y < h && this.y > 0) ? this._my : (-this._my);
@@ -50,7 +50,7 @@ class Circle {
         this.y += this._my / 2;
     }
 }
-//���㻭Բ��˸�䶯
+//Êó±êµã»­Ô²ÉÁË¸±ä¶¯
 class currentCirle extends Circle {
     constructor(x, y) {
         super(x, y)
@@ -58,7 +58,7 @@ class currentCirle extends Circle {
 
     drawCircle(ctx) {
         ctx.beginPath();
-        //ע������Ϊ��꽹��ĵط�ԲȦ�뾶�仯
+        //×¢ÊÍÄÚÈÝÎªÊó±ê½¹µãµÄµØ·½Ô²È¦°ë¾¶±ä»¯
         //this.r = (this.r < 14 && this.r > 1) ? this.r + (Math.random() * 2 - 1) : 2;
         this.r = 8;
         ctx.arc(this.x, this.y, this.r, 0, 360);
@@ -69,7 +69,7 @@ class currentCirle extends Circle {
 
     }
 }
-//����ҳ����requestAnimationFrame���setTimeout
+//¸üÐÂÒ³ÃæÓÃrequestAnimationFrameÌæ´úsetTimeout
 window.requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
 
 let canvas = document.getElementById('canvas');
